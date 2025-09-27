@@ -110,3 +110,8 @@ python3 multi_chain_transformer.py
 **Scaling experiments for multiple chains in disconnected chain graphs**
 
 <img src="images/multi_chain_experiments.png" width="1000">
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=AmitRoy7781/transformers_graph_connectivity/&type=Date)](https://star-history.com/#AmitRoy7781/transformers_graph_connectivity/&Date)
+
