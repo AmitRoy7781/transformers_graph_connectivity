@@ -1,5 +1,5 @@
 
-<h1 align="center">Transformers Can Learn Connectivity 
+<h1 align="center">Transformers Can Learn Connectivity</br>
   in Some Graphs but Not Others</h1>
 
 <p align="center">
