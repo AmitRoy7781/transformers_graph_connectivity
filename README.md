@@ -1,8 +1,7 @@
 
 <h1 align="center">Transformers Can Learn Connectivity in Some Graphs but Not Others</h1>
 
-This repository contains the official implementation of the paper 
-"Transformers Can Learn Connectivity in Some Graphs but Not Others"
+This repository contains the official implementation of the paper "Transformers Can Learn Connectivity in Some Graphs but Not Others" by [Amit Roy](https://amitroy7781.github.io) and [Abulhair Saparov](asaparov.org)
 
 ## Abstract
 <p align="justify">
