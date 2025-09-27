@@ -1,6 +1,5 @@
 
-<h1 align="center">Transformers Can Learn Connectivity</br>
-  in Some Graphs but Not Others</h1>
+<h2 align="center">Transformers Can Learn Connectivity in Some Graphs but Not Others</h2>
 
 <p align="center">
     <a href="https://github.com/AmitRoy7781/transformers_graph_connectivity/"><img src="https://img.shields.io/badge/-Github-black?logo=github" height=20 alt="Github"></a>
