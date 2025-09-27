@@ -1,5 +1,10 @@
 
-<h1 align="center">Transformers Can Learn Connectivity in Some Graphs but Not Others</h1>
+<h1 align="center">Transformers Can Learn Connectivity 
+  in Some Graphs but Not Others</h1>
+
+<p align="center">
+    <a href="https://github.com/AmitRoy7781/transformers_graph_connectivity/"><img src="https://img.shields.io/badge/-Github-black?logo=github" height=20 alt="Github"></a>
+</p>
 
 This repository contains the official implementation of the paper "Transformers Can Learn Connectivity in Some Graphs but Not Others" by [Amit Roy](https://amitroy7781.github.io) and [Abulhair Saparov](asaparov.org)
 
