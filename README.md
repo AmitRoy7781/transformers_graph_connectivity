@@ -2,6 +2,7 @@
 <h2 align="center">Transformers Can Learn Connectivity in Some Graphs but Not Others</h2>
 
 <p align="center">
+    <a href="https://arxiv.org/abs/2306.01951"><img src="https://img.shields.io/badge/arXiv-2306.01951-b31b1b.svg" height=20 alt="arXiv"></a> 
     <a href="https://github.com/AmitRoy7781/transformers_graph_connectivity/"><img src="https://img.shields.io/badge/-Github-black?logo=github" height=20 alt="Github"></a>
 </p>
 
