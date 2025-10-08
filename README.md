@@ -112,6 +112,19 @@ python3 multi_chain_transformer.py
 
 <img src="images/multi_chain_experiments.png" width="1000">
 
+## Cite
+
+If you find our paper and repo useful, please cite our paper:
+
+```bibtex
+@article{roy2025transformers,
+  title={Transformers Can Learn Connectivity in Some Graphs but Not Others},
+  author={Roy, Amit and Saparov, Abulhair},
+  journal={arXiv preprint arXiv:2509.22343},
+  year={2025}
+}
+```
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=AmitRoy7781/transformers_graph_connectivity/&type=Date)](https://star-history.com/#AmitRoy7781/transformers_graph_connectivity/&Date)
