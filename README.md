@@ -127,5 +127,4 @@ If you find our paper and repo useful, please cite our paper:
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=AmitRoy7781/transformers_graph_connectivity/&type=Date)](https://star-history.com/#AmitRoy7781/transformers_graph_connectivity/&Date)
-
+[![Star History Chart](https://api.star-history.com/svg?repos=amitroy7781/transformers_graph_connectivity&type=date&legend=bottom-right)](https://www.star-history.com/#amitroy7781/transformers_graph_connectivity&type=date&legend=bottom-right)
