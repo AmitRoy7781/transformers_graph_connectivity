@@ -114,18 +114,26 @@ def generate_dag(total_nodes, number_of_chains):
     chain_dict = {}
     available_nodes = set(dag)
 
+    print("=== DAG Generation with Larger Diameter Starts ===")
+    print("Available Nodes: ", len(available_nodes))
+
+    # Step 1 and 2
     for m in range(C): # C : Number of Chains
 
-        sampled_nodes = sorted(random.sample(list(available_nodes),k))
+        #sampling chain from available nodes and sorting them
+        sampled_nodes = random.sample(list(available_nodes),k)
+
+        #adding edges in the sorted order
         for i in range(len(sampled_nodes)-1):
             u = sampled_nodes[i]
             v = sampled_nodes[i+1]
             add_edge(dag,u,v)
 
-        
+        #removing chain nodes from the available nodes
         for node in sampled_nodes:
             available_nodes.remove(node)
 
+    # if nodes are left, connect them
     if len(available_nodes) > 1:
         available_nodes = list(available_nodes)
         for i in range(len(available_nodes)-1):
@@ -136,10 +144,7 @@ def generate_dag(total_nodes, number_of_chains):
     print("Remaining Nodes: ", len(available_nodes))
     print("Total Nodes: ", len(dag))
     print("Total Edges ", number_of_edges(dag))
-    node_mapping = dict(zip(dag, sorted(dag, key=lambda k: random.random())))
-    dag_shuffled = relabel_nodes(dag, node_mapping)
-    
-    return dag_shuffled, node_map
+    return dag, node_map
     
 def compute_distances(start):
     queue = [(start,0)]
